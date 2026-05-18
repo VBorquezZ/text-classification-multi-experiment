@@ -1,0 +1,73 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+*.json
+!example*.json
+!sample*.json
+
+# Jupyter notebook outputs and temporary files
+*.nbconvert.ipynb
+.notebook_tmp/
+.ipython/
+
+# Datasets and local data
+data/
+datasets/
+raw_data/
+processed_data/
+input/
+outputs/
+results/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Model checkpoints and artifacts
+artifacts/
+artifacts_*/
+checkpoints/
+models/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Hugging Face / Torch cache
+.cache/
+huggingface/
+hf_cache/
+torch_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/

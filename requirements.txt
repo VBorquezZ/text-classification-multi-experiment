@@ -1,0 +1,19 @@
+# Core data stack
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+
+# Deep learning
+torch
+transformers
+
+# Text augmentation and translation
+nlpaug
+nltk
+deep-translator
+
+# Jupyter notebooks
+jupyter
+ipykernel
